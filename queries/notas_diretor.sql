@@ -1,0 +1,2 @@
+/*Relação Episódio/Nota de cada Diretor*/
+SELECT diretor, COUNT(diretor) AS 'Quantidade de Episódios', TRUNCATE(AVG(pontuacao),1) AS 'Nota média dos episodios dirigidos' FROM episodios GROUP BY diretor ORDER BY COUNT(diretor) DESC, TRUNCATE(AVG(pontuacao),1) DESC;
