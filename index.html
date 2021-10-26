@@ -55,25 +55,60 @@
                 <!-- Graficos -->
                 <div id="graficos">
                     <h2>Graficos</h2>
-                    <h3>Quais as regiões com o maior numero de casas?</h3>
-                    <img src="img/grafico1.jpg" class="img-fluid" alt="...">
+                    <h3>Quais as regiões com o maior número de casas.</h3>
+                    <img src="img/query1.jpg" class="img-fluid" alt="...">
                     <br>
                     <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#MaiorNumCasa">
                       Veja a Query
                      </button>
 
                     <br>
-                    <h3>Quais os Episódios mais longos?</h3>
-                    <img src="img/grafico2.jpg" class="img-fluid" alt="...">
+                    <h3>Episódios mais longos</h3>
+                    <img src="img/query2.jpg" class="img-fluid" alt="...">
                     <br>
                     <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#grafico2">
                         Veja a Query
                        </button>
                     <br>
-                    <h3>Média de avaliação por temporada?</h3>
-                    <img src="img/grafico2.jpg" class="img-fluid" alt="...">
+                    <h3>Média de avaliação por temporada</h3>
+                    <img src="img/query3.jpg" class="img-fluid" alt="...">
                     <br>
                     <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#grafico3">
+                        Veja a Query
+                    </button>
+                    <br>
+                    <h3>Média de avaliação por temporada</h3>
+                    <img src="img/query4.jpg" class="img-fluid" alt="...">
+                    <br>
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#grafico4">
+                        Veja a Query
+                    </button>
+                    <br>
+                    <h3>Média de avaliação por temporada</h3>
+                    <img src="img/query5.jpg" class="img-fluid" alt="...">
+                    <br>
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#grafico5">
+                        Veja a Query
+                    </button>
+                    <br>
+                    <h3>Média de avaliação por temporada</h3>
+                    <img src="img/query6.jpg" class="img-fluid" alt="...">
+                    <br>
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#grafico6">
+                        Veja a Query
+                    </button>
+                    <br>
+                    <h3>Média de avaliação por temporada</h3>
+                    <img src="img/query7.jpg" class="img-fluid" alt="...">
+                    <br>
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#grafico7">
+                        Veja a Query
+                    </button>
+                    <br>
+                    <h3>Média de avaliação por temporada</h3>
+                    <img src="img/query8.jpg" class="img-fluid" alt="...">
+                    <br>
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#grafico8">
                         Veja a Query
                     </button>
                     <br>
@@ -99,7 +134,7 @@
                         <img src="img/matheusimg.jpeg" id="img-dev" class="card-img-top img-card" alt="#">
                         <div class="card-body elementos-card p-0">
                         <h5 class="card-title fw-bold nome-dev">Matheus</h5>
-                        <a href="#"
+                        <a href="https://www.linkedin.com/in/matheusgermanodesouza/"
                             class="btn btn-outline-dark botao-tamanho">LinkedIn</a>
                         <a href="#" class="btn btn-outline-dark botao-tamanho mt-1">Github</a>
                         </div>
@@ -110,7 +145,7 @@
                         alt="Dev-Helio">
                         <div class="card-body elementos-card p-0">
                         <h5 class="card-title fw-bold nome-dev">Helio</h5>
-                        <a href="#" class="btn btn-outline-dark botao-tamanho">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/dev-heliofranco/" class="btn btn-outline-dark botao-tamanho">LinkedIn</a>
                         <a href="#" class="btn btn-outline-dark botao-tamanho mt-1">Github</a>
                         </div>
                     </article>
@@ -129,7 +164,7 @@
                         <img src="img/israelimg.jpg" class="card-img-top img-card" alt="Dev-Israel">
                         <div class="card-body elementos-card p-0">
                         <h5 class="card-title fw-bold nome-dev">Israel</h5>
-                        <a href="#"
+                        <a href="https://www.linkedin.com/in/israel-marques-375017158/"
                             class="btn btn-outline-dark botao-tamanho">LinkedIn</a>
                         <a href="#" class="btn btn-outline-dark botao-tamanho mt-1">Github</a>
                         </div>
@@ -156,15 +191,11 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-
-                        <h1>funciona</h1>
-                       <img src="img/query1.jpg" class="img-fluid" alt="...">
-
-                       
+                        <p>SELECT regiao, count(regiao) AS quantidade_de_casa FROM casas GROUP BY regiao Order by quantidade_de_casa DESC;</p>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <p>testando 123</p>
+                        
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                         
                     </div>
@@ -213,7 +244,111 @@
                </div>
            </div>
        </div>
-       
+       <!-- Modal 4-->
+       <div class="modal fade" id="grafico4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Query</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p>SELECT ator_atriz, nome, aparicoes FROM personagens ORDER BY aparicoes DESC LIMIT 10;</p>
+                   
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="modal fade" id="grafico5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Query</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <p>SELECT EPISODIO, TEMPORADA, TITULO, PONTUACAO, VOTOS FROM episodios order by VOTOS DESC LIMIT 10;</p>
+                    
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="modal fade" id="grafico6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Query</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <p>Top 10 episódios mais bem avaliados
+                        SELECT titulo, votos as 'Número de votos', pontuacao as 'Nota do Episodio' FROM episodios order by pontuacao DESC, VOTOS DESC LIMIT 10;
+                        </p>
+                    
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 7-->
+        <div class="modal fade" id="grafico7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Query</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <p>Relação Episódio/Nota de cada Diretor
+                        SELECT diretor, COUNT(diretor) AS 'Quantidade de Episódios', TRUNCATE(AVG(pontuacao),1) AS 'Nota média dos episodios dirigidos' FROM episodios GROUP BY diretor ORDER BY COUNT(diretor) DESC, TRUNCATE(AVG(pontuacao),1) DESC;
+                        </p>
+                    
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 8-->
+        <div class="modal fade" id="grafico8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Query</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <p>SELECT titulo, votos as 'Número de votos', pontuacao as 'Nota do Episodio' FROM episodios order by pontuacao ASC, VOTOS ASC LIMIT 10;</p>
+                    
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
        
         
 
