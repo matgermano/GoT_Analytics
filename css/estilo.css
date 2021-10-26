@@ -9,6 +9,19 @@ body{
     margin: 0%;
 }
 
+#container{
+    background-color: #c5b7b7;
+
+}
+img{
+    width: 800px;
+    height: 600px;
+}
+
+
+   #img-trelo{
+     height: 310px;  
+   }
 ul{
     list-style-type: none;
     margin:0%;
@@ -24,6 +37,9 @@ li{
     float: left;
 
 }
+
+
+
 
 .menu a {
     float: left;
@@ -45,6 +61,7 @@ li a:hover{
 .menu-direita{
     float: right;
 }
+
 
 
 
@@ -146,7 +163,7 @@ footer{
 }
 
 .background-gradient{
-    background: #1B1B1B;
+    background: #b6b1b1;
     height: 100vh;
     width: 100vw;
 }
