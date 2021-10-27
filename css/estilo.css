@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap');
+*{
+    /* nao considerar o padding das caixas, ajuda muito */
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0%;
+}
+
+#container{
+    background-color: #5c0201;
+
+}
+img{
+    width: 800px;
+    height: 600px;
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin:0%;
+    overflow: hidden;
+    padding: 0%;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.4);
+}
+
+li{
+    float: left;
+
+}
+
+h2{
+    color: yellow;
+}
+h3{
+    color: yellow;
+}
+
+
+
+.menu a {
+    float: left;
+    display:block;
+    color: yellow;
+    padding:14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:white;
+    background-color:rgba(95, 31, 31, 0.911);
+}
+
+.menu .icon{
+    display: none;
+}
+
+.menu-direita{
+    float: right;
+}
+
+
+
+
+
+#centraliza-conteudo{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+#desenvolvimento{
+display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 25px;
+}
+#scrum{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+#graficos{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+
+
+footer{
+    
+    width: 100%;
+    height: 30px;
+    float: left;
+}
+
+
+
+#contato>h2{
+    text-align: center;
+}
+
+#contato{
+    background-color: #5c0201;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    float: left;
+    /* background-color: #1b1b1b; */
+    
+}
+
+.cont{
+    margin-top: 20px;
+}
+
+.copyright{
+    color: white
+}
+    
+/* FINAL DO CSS DESKTOP */
+
+/* INICIO DO CSS MOBILE */
+
+@media only screen and (max-width: 600px) {
+    #centraliza-conteudo{
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+    /* INICIO CSS - RESPONSIVO */
+    /* esconde todos os itens do menu, menos o primeiro li */
+    .menu ul>li:not(:first-child){
+        display:none 
+    }
+
+    
+/* EXIBE O ICONE DO MENU NA VERSAO MOBILE DO LADO DIREITO */
+    .menu .icon{
+        float: right;
+        display: block;
+    }
+    
+    /* Ao clicar no icone do menu responsivo, na direita, é alterada a sua posição de elemento  */
+    .menu.responsive{
+        position: relative;
+    }
+
+    /* Fixa a posição do menu na parte superior, sem esse trecho, ele ira ficar nno final do menu, ao expandir */
+    .menu.responsive .icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+        /* Muda o display dos itens do menu, para que volte a aparecer todos, ficando um por linha */
+    .menu.responsive ul>li {
+        float: none;
+        width: 100%;
+        display: inline-block;
+    }
+
+}
+
+.background-gradient{
+    background: #b6b1b1;
+    height: 100vh;
+    width: 100vw;
+}
+.transicao:hover{
+    transform: scale(1.05);
+    transition: 0.2s all cubic-bezier(1, 0, 0, 1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0,0.5);
+}
+
+
+.img-card{
+    object-fit: cover;
+    height: 30vh;
+    position: relative;
+    top: -2em;
+    border-radius:0.3rem!important;
+    box-shadow:0 0 2em rgba(0, 0, 0, 0.774);
+}
+.elementos-card{
+    display: flex;
+    flex-flow: column nowrap;
+    /* justify-content: space-around; */
+    /* align-items: stretch; */
+}
+.nome-dev{
+    
+    width: 100%;
+    position:relative;
+    color: rgb(235, 231, 231);
+}
+
+.nome-dev:after,
+.nome-dev:before{
+    content: "";
+    position: absolute;
+    transition: transform 0.5s ease-in-out;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0.3rem;
+}
+.nome-dev:before{
+    border-left: 0.1rem solid #1b1b1b;
+    border-right: 0.1rem solid #1b1b1b;
+    transform: scaleY(0);
+}
+.nome-dev:after{
+    border-top: 0.1rem solid #1b1b1b;
+    border-bottom: 0.1rem solid #1b1b1b;
+    transform: scaleX(0);
+}
+.nome-dev:hover::before{
+    transform: scaleY(1);
+}
+.nome-dev:hover::after{
+    transform:scaleX(1);
+}
+.nome-dev:hover{
+    color:rgb(8, 8, 8);
+    transition: 0.5s;
+} 
+
+
+
+    
+
+
+
