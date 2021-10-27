@@ -10,7 +10,7 @@ body{
 }
 
 #container{
-    background-color: #c5b7b7;
+    background-color: #3f1f52c4;
 
 }
 img{
@@ -19,9 +19,7 @@ img{
 }
 
 
-   #img-trelo{
-     height: 310px;  
-   }
+
 ul{
     list-style-type: none;
     margin:0%;
@@ -92,7 +90,7 @@ display: flex;
 
 
 footer{
-    margin-top: 50px; 
+    
     width: 100%;
     height: 30px;
     float: left;
@@ -125,8 +123,13 @@ footer{
 
 @media only screen and (max-width: 600px) {
     #centraliza-conteudo{
-        width: 95%;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
     }
+
+    
 
     /* INICIO CSS - RESPONSIVO */
     /* esconde todos os itens do menu, menos o primeiro li */
