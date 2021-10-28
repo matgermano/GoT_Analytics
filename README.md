@@ -1,16 +1,35 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Logo_Game_of_Thrones.png">
-<h1>⚔ GoT Analytics 📊</h1>
 
-## ✨Projeto final do módulo 3 -  Desenvolvimento Web FullStack ✨
+# ⚔ GoT Analytics 📊
 
 ---
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+ 
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+
+ ![GitHub Org's stars](https://img.shields.io/github/stars/matgermano/GoT_Analytics?style=social)
+ [![GitHub forks](https://img.shields.io/github/forks/matgermano/GoT_Analytics.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/matgermano/GoT_Analytics/network/)
+ 
+ [![GitHub branches](https://badgen.net/github/branches/matgermano/GoT_Analytics)](https://github.com/matgermano/GoT_Analytics)
+ 
+ ---
+ 
 ## Propósito do projeto:
 
-Análisar banco de dados cedido a partir tema escolhido (Game of Thrones) e a após a análise: criar gráficos que facilitem a visualização de questões criadas e pensadas pelo time, lembrando que esse processo foi concluído exclusivamente de acordo com os dados.
+### <b>Análisar banco de dados cedido a partir tema escolhido (Game of Thrones) e a após a análise: criar gráficos que facilitem a visualização de questões criadas e pensadas pelo time, lembrando que esse processo foi concluído exclusivamente de acordo com os dados.<b></h3><br><br>
 
-## Exemplo:
+### Exemplo:
+  
 <img src="./img/grafico4.png">
+  
+Query:
+```
+  SELECT ator_atriz, nome, aparicoes FROM personagens ORDER BY aparicoes DESC LIMIT 10;
+```
+<p><b><i>A partir dos dados, usando Querys do MySQL conseguimos concluir que os atores/atrizes que mais participaram da série Game of Thrones foram esses citados, além disso, através  da ferramenta Metabase, criamos um gráfico para facilitar a visualização da seleção dos dados que fizemos pelo MySQL.</i><b><p>
+  
 ---
 
 ## Ferramentas utilizadas:
@@ -29,13 +48,13 @@ Análisar banco de dados cedido a partir tema escolhido (Game of Thrones) e a ap
 
 ### 📝Instruções para utilizar o projeto:
 
-- Instalar o programa MySQL no seu servidor
+1. Instalar o programa MySQL no seu servidor
 
-- Utilizar o schema na pasta ./database/got_database.sql
+2. Utilizar o schema na pasta ./database/got_database.sql
 
-- Executar as queries na pasta ./queries
+3. Executar as queries na pasta ./queries
 
-- A função das queries estão em comentários em cada arquivo
+4. A função das queries estão em comentários em cada arquivo
 
 ---
 
