@@ -20,9 +20,13 @@
 
 ### <b>Análisar banco de dados cedido a partir tema escolhido (Game of Thrones) e a após a análise: criar gráficos que facilitem a visualização de questões criadas e pensadas pelo time, lembrando que esse processo foi concluído exclusivamente de acordo com os dados.<b></h3><br><br>
 
+### Relação dos dados:
+ > <img src="./img/modelagem.jpeg">
+
 ### Exemplo:
   
-<img src="./img/grafico4.png">
+> <div align="center"> <img src="./img/grafico4.png">
+ </div>
   
 Query:
 ```
@@ -48,13 +52,15 @@ Query:
 
 ### 📝Instruções para utilizar o projeto:
 
-1. Instalar o programa MySQL no seu servidor
+1.Acesse o <a href='https://drive.google.com/drive/folders/1vWOXld-1rxQsFj0_QhtEpaAvD0Fbwefx'> Banco de Dados </a> utilize os arquivos SQL para estruturar e as chaves para relacionar as tabelas (tratar os dados).
+ 
+2. Instalar o programa MySQL no seu servidor
 
-2. Utilizar o schema na pasta ./database/got_database.sql
+3. Utilizar o schema na pasta ./database/got_database.sql
 
-3. Executar as queries na pasta ./queries
+4. Executar as queries na pasta ./queries
 
-4. A função das queries estão em comentários em cada arquivo
+5. A função das queries estão em comentários em cada arquivo
 
 ---
 
