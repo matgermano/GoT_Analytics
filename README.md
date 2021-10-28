@@ -1,12 +1,20 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Logo_Game_of_Thrones.png">
 
-<h1 align="center">⚔ GoT Analytics 📊</h1>
+# ⚔ GoT Analytics 📊
 
+---
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+ ![GitHub Org's stars](https://img.shields.io/github/stars/matgermano/GoT_Analytics?style=social)
+ 
+ ---
+ 
 ## Propósito do projeto:
 
-<h3><b>Análisar banco de dados cedido a partir tema escolhido (Game of Thrones) e a após a análise: criar gráficos que facilitem a visualização de questões criadas e pensadas pelo time, lembrando que esse processo foi concluído exclusivamente de acordo com os dados.<b></h3><br><br>
+### <b>Análisar banco de dados cedido a partir tema escolhido (Game of Thrones) e a após a análise: criar gráficos que facilitem a visualização de questões criadas e pensadas pelo time, lembrando que esse processo foi concluído exclusivamente de acordo com os dados.<b></h3><br><br>
 
-<h3>Exemplo:</h3>
+### Exemplo:
   
 <img src="./img/grafico4.png">
   
