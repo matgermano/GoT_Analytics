@@ -5,8 +5,14 @@
 ---
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+ 
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 
  ![GitHub Org's stars](https://img.shields.io/github/stars/matgermano/GoT_Analytics?style=social)
+ [![GitHub forks](https://img.shields.io/github/forks/matgermano/GoT_Analytics.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/matgermano/GoT_Analytics/network/)
+ 
+ [![GitHub branches](https://badgen.net/github/branches/matgermano/GoT_Analytics)](https://github.com/matgermano/GoT_Analytics)
  
  ---
  
