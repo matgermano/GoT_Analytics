@@ -52,7 +52,7 @@ Query:
 
 ### 📝Instruções para utilizar o projeto:
 
-1.Acesse o <a href='https://drive.google.com/drive/folders/1vWOXld-1rxQsFj0_QhtEpaAvD0Fbwefx'> Banco de Dados </a> utilize os arquivos SQL para estruturar e as chaves para relacionar as tabelas (tratar os dados).
+1. Acesse o <a href='https://drive.google.com/drive/folders/1vWOXld-1rxQsFj0_QhtEpaAvD0Fbwefx'> Banco de Dados </a> utilize os arquivos SQL para estruturar e as chaves para relacionar as tabelas (tratar os dados).
  
 2. Instalar o programa MySQL no seu servidor
 
