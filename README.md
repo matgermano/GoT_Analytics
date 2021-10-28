@@ -1,16 +1,21 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Logo_Game_of_Thrones.png">
-<h1>⚔ GoT Analytics 📊</h1>
 
-## ✨Projeto final do módulo 3 -  Desenvolvimento Web FullStack ✨
-
----
+<h1 align="center">⚔ GoT Analytics 📊</h1>
 
 ## Propósito do projeto:
 
-Análisar banco de dados cedido a partir tema escolhido (Game of Thrones) e a após a análise: criar gráficos que facilitem a visualização de questões criadas e pensadas pelo time, lembrando que esse processo foi concluído exclusivamente de acordo com os dados.
+<h3><b>Análisar banco de dados cedido a partir tema escolhido (Game of Thrones) e a após a análise: criar gráficos que facilitem a visualização de questões criadas e pensadas pelo time, lembrando que esse processo foi concluído exclusivamente de acordo com os dados.<b></h3><br><br>
 
-## Exemplo:
+<h3>Exemplo:</h3>
+  
 <img src="./img/grafico4.png">
+  
+Query:
+```
+  SELECT ator_atriz, nome, aparicoes FROM personagens ORDER BY aparicoes DESC LIMIT 10;
+```
+<p><b><i>A partir dos dados, usando Querys do MySQL conseguimos concluir que os atores/atrizes que mais participaram da série Game of Thrones foram esses citados, além disso, através  da ferramenta Metabase, criamos um gráfico para facilitar a visualização da seleção dos dados que fizemos pelo MySQL.</i><b><p>
+  
 ---
 
 ## Ferramentas utilizadas:
@@ -29,13 +34,13 @@ Análisar banco de dados cedido a partir tema escolhido (Game of Thrones) e a ap
 
 ### 📝Instruções para utilizar o projeto:
 
-- Instalar o programa MySQL no seu servidor
+1. Instalar o programa MySQL no seu servidor
 
-- Utilizar o schema na pasta ./database/got_database.sql
+2. Utilizar o schema na pasta ./database/got_database.sql
 
-- Executar as queries na pasta ./queries
+3. Executar as queries na pasta ./queries
 
-- A função das queries estão em comentários em cada arquivo
+4. A função das queries estão em comentários em cada arquivo
 
 ---
 
